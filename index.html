@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Author" content="Amidu Mohamed Kamara">
+    <meta name="Description" content="Personal portfolio of Amidu Mohamed Kamara">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js" defer></script>
+    <title>Amidu Mohamed Kamara</title>
+    <link rel="icon" href="images/fav.jpg">
+     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo-container">
+            <a href="index.html" class="navbar-logo">Amidu</a>
+        </div>
+
+        <button class="navbar-toggle">
+
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+
+        </button>
+
+        <ul class="navbar-menu">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#project">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+    </nav>
+
+     <section id="home">
+        <img src="images/profile.jpeg" alt="Profile Image">
+
+        <div class="info-box">
+            <h1><span>Hello, I'm Amid</span></h1>
+       <div> <span> Web Developer&nbsp;</span><mark>based in Sierra Leone</mark></div>
+             <p>I create modern, responsive web applications with a focus on clean design and smooth user experiences. 
+                Tailored solutions that deliver performance and scalability across all devices.</p>
+        </div>
+
+        <div class="btn-box">
+        <div class="btn">Hire Me</div>
+        <div class="btn"><a href="#contact">Contact Me</a></div>
+        </div>
+       
+    </section>
+
+     <section id="about">
+
+       <div class="about-box">
+
+        <div class="about-info">
+            <h1><span>About</span></h1>
+            <p>I'm a passionate web developer with a knack for crafting seamless digital experiences.
+                 With a strong foundation in HTML, CSS, and JavaScript, 
+                 I specialize in creating responsive and user-friendly websites. 
+                 My goal is to bring ideas to life through clean code and innovative design,
+                  ensuring every project I work on is both functional and visually appealing.</p>
+
+        </div>
+
+        <h2><span>Skills</span></h2>
+       
+        <div class="skills">
+            <ul>
+                <li><span><i class='bx bx-chevron-right'></i>HTML</span></li>
+                <li><span><i class='bx bx-chevron-right'></i>CSS</span></li>
+                <li><span><i class='bx bx-chevron-right'></i>JavaScript</span></li>
+            </ul>
+
+             <ul>
+                <li><span><i class='bx bx-chevron-right'></i>React</span></li>
+                <li><span><i class='bx bx-chevron-right'></i>Node.js</span></li>
+                <li><span><i class='bx bx-chevron-right'></i>mySQL</span></li>
+            </ul>
+        </div>
+       </div>
+
+       <img src="images/profile.jpeg" alt="">
+    </section>
+
+    <section id="services">
+        <h1 class="header"><span>My Services</span></h1>
+
+        <div class="services-container">
+            <div class="box">
+                <h1><span>Web Design</span></h1>
+                <p>Crafting visually stunning and user-friendly websites that captivate audiences and drive engagement.</p>
+                <img src="images/Design.jpg" alt="">
+
+            </div>
+
+             <div class="box">
+                <h1><span>Frontend Development</span></h1>
+                <p>Creating responsive and interactive user interfaces with the latest web technologies.</p>
+                <img src="images/frontend.jpg" alt="">
+
+            </div>
+
+            <div class="box">
+                <h1><span>Backend Development</span></h1>
+                <p>Designing and implementing efficient server-side logic and databases to power dynamic web applications.</p>
+                <img src="images/backend.jpg" alt="">
+
+            </div>
+
+        </div>
+       
+    </section>
+
+     <section id="contact">
+        <h1 class="header"><span>Contact Me</span></h1>
+
+       <!--  <form action="https://api.web3forms.com/submit" method="POST">
+         <input type="hidden" name="access_key" value="9b93c553-fce9-4a7b-8b45-ff1e5b7d18cd">
+         <input type="text" name="name" required>
+         <input type="email" name="email" required>
+             <textarea name="message" required></textarea>
+          <button type="submit">Submit</button>
+</form> -->
+        <form action="https://api.web3forms.com/submit" method="POST">
+             <input type="hidden" name="access_key" value="9b93c553-fce9-4a7b-8b45-ff1e5b7d18cd">
+
+             <input type="hidden" name="subject" value="New Message from Website">
+
+             <input type="hidden" name="from_name" value="My Portfolio Website">
+
+            <!--  <input type="hidden" name="replyto" value="{{emsil}}"> -->
+
+             <input type="checkbox" name="botcheck" style="display: none;">
+
+             <input type="hidden" name="redirect" value="https://yourwebsite.com/thank-you.html">
+           
+             <div class="input-box">
+                <span>Full Name</span>
+                <input type="text" name="name" placeholder="Enter your full name" required>
+            </div>
+
+            <div class="input-box">
+                <span>Your Email</span>
+                <input type="email" name="email"   placeholder="Enter your email address" required>
+            </div>
+
+            
+            <div class="input-box">
+                <span> Your Message</span>
+                <input  name="message" placeholder="Enter your message" required>
+            </div>
+
+              
+               <button type="submit">Submit</button>
+ 
+        
+
+        </form>
+
+</section>
+
+<footer>
+
+    <div class="col-left">
+        <div class="col-box">
+            <span><i class='bx bxs-location-plus'></i></span>
+            <span>5 Looking Town, Makeni</span>
+        </div>
+
+         <div class="col-box">
+            <span><i class='bx bxs-phone'></i></span>
+            <span>+232 88 997 392</span>
+        </div>
+
+         <div class="col-box">
+            <span><i class='bx bxs-envelope'></i></span>
+            <span>amidumkamara90@gmail.com</span>
+        </div>
+
+    </div>
+
+    <div class="col-right">
+        <span>About My Services</span>
+
+        <div class="social-icon">
+           <span> <a href="https://www.facebook.com/amidu.m.kamara.2025"><i class='bx bxl-facebook-square'></i></a></span>
+           <span><a href="https://www.instagram.com/amidjr_/"><i class='bx bxl-instagram'></i></a> </span> 
+           <span> <a href="https://www.linkedin.com/in/amid-kamara-59058b39b/?skipRedirect=true"><i class='bx bxl-linkedin-square'></i></a></span>
+           <span> <a href="https://www.github.com/amidumkamara90-wq"><i class='bx bxl-github'></i></a> </span>
+           <span><a href="http://www.youtube.com/@amidumkamara"><i class='bx bxl-youtube'></i></a></span>
+
+
+
+        </div>
+
+    </div>
+    
+
+</footer>
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
