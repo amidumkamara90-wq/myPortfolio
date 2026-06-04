@@ -6,7 +6,7 @@
     <meta name="Description" content="Personal portfolio of Amidu Mohamed Kamara">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
-    <script src="main.js" defer></script>
+   
     <title>Amidu Mohamed Kamara</title>
     <link rel="icon" href="images/fav.jpg">
      <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
@@ -127,7 +127,7 @@
              <textarea name="message" required></textarea>
           <button type="submit">Submit</button>
 </form> -->
-        <form action="https://api.web3forms.com/submit" method="POST">
+        <form action="https://api.web3forms.com/submit" method="POST" id="form">
              <input type="hidden" name="access_key" value="9b93c553-fce9-4a7b-8b45-ff1e5b7d18cd">
 
              <input type="hidden" name="subject" value="New Message from Website">
@@ -142,22 +142,25 @@
            
              <div class="input-box">
                 <span>Full Name</span>
-                <input type="text" name="name" placeholder="Enter your full name" required>
+                <input type="text" id="name" name="name" placeholder="Enter your full name">
+                <span id="error_name" style="color: red;"></span>
             </div>
 
             <div class="input-box">
                 <span>Your Email</span>
-                <input type="email" name="email"   placeholder="Enter your email address" required>
+                        <input type="email" name="email"  id="email" placeholder="Enter your email address">
+                        <span id="error_email" style="color: red;"></span>
+            </div>
             </div>
 
             
             <div class="input-box">
                 <span> Your Message</span>
-                <input  name="message" placeholder="Enter your message" required>
+                <input  name="message" placeholder="Enter your message">
             </div>
 
               
-               <button type="submit">Submit</button>
+               <button type="submit" >Submit</button>
  
         
 
@@ -218,7 +221,7 @@
 
 
 
-
+ <script src="main.js" defer></script>
 
 
 
